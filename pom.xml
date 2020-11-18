@@ -37,7 +37,6 @@
     <module>cli</module>
     <module>common</module>
     <module>contrib</module>
-    <module>druid-handler</module>
     <module>hbase-handler</module>
     <module>jdbc-handler</module>
     <module>hcatalog</module>
@@ -151,7 +150,7 @@
     <ivy.version>2.4.0</ivy.version>
     <jackson.version>1.9.13</jackson.version>
     <!-- jackson 1 and 2 lines can coexist without issue, as they have different artifactIds -->
-    <jackson.new.version>2.6.5</jackson.new.version>
+    <jackson.new.version>2.9.10.6</jackson.new.version>
     <jasper.version>5.5.23</jasper.version>
     <jamon.plugin.version>2.3.4</jamon.plugin.version>
     <jamon-runtime.version>2.3.1</jamon-runtime.version>
@@ -178,7 +177,7 @@
     <orc.version>1.3.4</orc.version>
     <mockito-all.version>1.9.5</mockito-all.version>
     <mina.version>2.0.0-M5</mina.version>
-    <netty.version>4.0.52.Final</netty.version>
+    <netty.version>4.1.44.Final</netty.version>
     <parquet.version>1.8.1</parquet.version>
     <pig.version>0.16.0</pig.version>
     <protobuf.version>2.5.0</protobuf.version>
@@ -197,7 +196,7 @@
     <wadl-resourcedoc-doclet.version>1.4</wadl-resourcedoc-doclet.version>
     <velocity.version>1.5</velocity.version>
     <xerces.version>2.9.1</xerces.version>
-    <zookeeper.version>3.4.6</zookeeper.version>
+    <zookeeper.version>3.5.5</zookeeper.version>
     <jpam.version>1.1</jpam.version>
     <felix.version>2.4.0</felix.version>
     <curator.version>2.7.1</curator.version>
