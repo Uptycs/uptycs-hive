@@ -43,7 +43,7 @@ node("uptycs") {
 
 
     stage("upload-to-s3") {
-      BUCKET_NAME = "uptycs-builds-2"
+      BUCKET_NAME = "uptycs-apt-w2-2"
       if (PULL_REQUEST != null) {
         return
       }
@@ -52,7 +52,7 @@ node("uptycs") {
           sh """
             ls -l *.tar.gz
             aws configure set default.s3.signature_version s3v4
-            aws s3 cp apache-hive-2.3.7u1-bin.tar.gz s3://${BUCKET_NAME}/ --quiet
+            aws s3 cp apache-hive-2.3.7u1-bin.tar.gz s3://${BUCKET_NAME}/apache-hive/ --quiet
           """
         } // withAWS
       } // dir
